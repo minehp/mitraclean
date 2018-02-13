@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import HomePage from '@/components/HomePage';
-import HelloWorld from '@/components/HelloWorld';
-import TemplatePage from '@/components/TemplatePage';
-import Login from '@/components/Login';
+import AboutUsPage from '@/components/AboutUsPage';
+import ServicesPage from '@/components/ServicesPage';
+import ContactPage from '@/components/ContactPage';
 
 Vue.use(Router)
 
@@ -11,8 +11,24 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'TemplatePage',
-      component: TemplatePage
-    }
-  ]
+      name: 'HomePage',
+      component: HomePage
+    },
+    {
+      path: '/about-us',
+      name: 'About Us',
+      component: AboutUsPage
+    },
+    {
+      path: '/services',
+      name: 'Services',
+      component: ServicesPage
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: ContactPage
+    },
+  ],
+  mode: 'history'
 })
