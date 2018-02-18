@@ -9,9 +9,8 @@ Vue.use(Vuetify, {
   theme: {
     primary: '#E6EE9C',
     secondary: '#F0F4C3',
-    accent: '#8c9eff',
-    error: '#b71c1c',
     fontColor: '#4E342E',
+    titleColor: '#00796B'
   }
 });
 
