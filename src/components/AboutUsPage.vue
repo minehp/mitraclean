@@ -1,5 +1,5 @@
 <template>
-  <v-layout row wrap justify-center>
+  <v-layout row wrap justify-center mt-5>
       <v-flex xs12>
         <h2 class="px-3 pt-3 titleColor--text">About Us</h2>
       </v-flex>
@@ -86,7 +86,7 @@
           },
           {
             icon: 'autorenew',
-            content: '<b>Hubungan pangka panjang</b> Mitra Clean bangun dengan pelanggan. Dengan profesionalisme kerja, harga murah dan kualitas yang tidak mengecewakan, kita pastikan pelanggan akan ingat selalu pelayanan yang staff Mitra Clean berikan'
+            content: '<b>Hubungan jangka panjang</b> Mitra Clean bangun dengan pelanggan. Dengan profesionalisme kerja, harga murah dan kualitas yang tidak mengecewakan, kita pastikan pelanggan akan ingat selalu pelayanan yang staff Mitra Clean berikan'
           }
         ]
       };
