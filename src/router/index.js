@@ -10,22 +10,22 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/mitraclean/',
+      path: '/',
       name: 'HomePage',
       component: HomePage
     },
     {
-      path: '/mitraclean/about-us',
+      path: '/about-us',
       name: 'About Us',
       component: AboutUsPage
     },
     {
-      path: '/mitraclean/services',
+      path: '/services',
       name: 'Services',
       component: ServicesPage
     },
     {
-      path: '/mitraclean/contact',
+      path: '/contact',
       name: 'Contact',
       component: ContactPage
     },
