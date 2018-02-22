@@ -14,8 +14,8 @@
     </v-flex>
     <v-flex xs12 text-xs-center mt-4 v-html="content_1.title"></v-flex>
     <v-flex xs12 text-xs-center>
-      <router-link to="/contact">
-        <v-card-media src="/static/call-us.png" height="120" contain></v-card-media>
+      <router-link to="/mitraclean/contact">
+        <v-card-media src="./static/call-us.png" height="120" contain></v-card-media>
       </router-link>
     </v-flex>
     <v-flex xs12 mb-4>
@@ -37,8 +37,8 @@
       </v-card>
     </v-flex>
     <v-flex xs12 text-xs-center>
-      <router-link to="/contact">
-        <v-card-media src="/static/call-us.png" height="120" contain></v-card-media>
+      <router-link to="/mitraclean/contact">
+        <v-card-media src="./static/call-us.png" height="120" contain></v-card-media>
       </router-link>
     </v-flex>
     <v-flex xs12 text-xs-center mb-3>
@@ -94,19 +94,19 @@ export default {
       ],
       cards: [
         {
-          src: "/static/home_6.jpeg",
+          src: "./static/home_6.jpeg",
           title: "Pelopor Jasa Bersih Sofa Online",
           caption:
             "Mitra Clean merupakan pelopor jasa cuci sofa berbasis online pertama di surabaya, layanan cepat dan ramah kami utamakan, karena pelanggan kami adalah raja."
         },
         {
-          src: "/static/home_8.jpeg",
+          src: "./static/home_8.jpeg",
           title: "Kerja Profesional dan Hasil sempurna",
           caption:
             "Bekerja dengan team yang profesional dan perfectionist membuat hasil yang kami berikan ke pelanggan tak diragukan lagi. Pelanggan puas kami puas."
         },
         {
-          src: "/static/home_7.jpeg",
+          src: "./static/home_7.jpeg",
           title: "Biaya Terjangkau dan Pelayanan Memuaskan",
           caption:
             "Kami berusaha memberi pelayanan maksimal tanpa membebani financial pelanggan, kami mengutamakan kepuasan pelanggan dan hasil kerja yang profesional."

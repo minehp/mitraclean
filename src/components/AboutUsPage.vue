@@ -7,7 +7,7 @@
       <v-flex xs12 md10 my-3>
         <v-layout row wrap pb-2>
           <v-flex xs12 md5 pa-3>
-            <img src="/static/aboutus_1.jpg" alt="visi" width="100%">
+            <img :src="require('@/../static/aboutus_1.jpg')" alt="visi" width="100%">
           </v-flex>
           <v-flex cs12 md7>
             <h3 class="mt-3 mb-3"><u>Visi</u></h3>
@@ -28,7 +28,7 @@
       <v-flex xs12 md10 my-3>
         <v-layout row wrap>
           <v-flex xs12 md5 pa-3 order-md2>
-            <img src="/static/aboutus_2.jpeg" alt="misi" width="100%">
+            <img :src="require('@/../static/aboutus_2.jpeg')" alt="misi" width="100%">
           </v-flex>
           <v-flex cs12 md7 order-md1>
             <h3 class="mt-3 mb-3"><u>Misi</u></h3>

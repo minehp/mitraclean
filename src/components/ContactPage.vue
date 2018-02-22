@@ -4,7 +4,7 @@
       <h2 class="my-3 px-3 titleColor--text">Contact</h2>
     </v-flex>
     <v-flex xs12>
-      <v-card-media src="/static/contact.jpeg" height="400">
+      <v-card-media src="./static/contact.jpeg" height="400">
         <v-layout justify-end contact align-center>
           <v-flex xs12 text-xs-center secondary--text>
               <h4>Hubungi staff kami di:</h4>
