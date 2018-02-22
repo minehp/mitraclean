@@ -86,11 +86,11 @@ export default {
   data: () => {
     return {
       slides: [
-        { src: "/static/home_1.jpg" },
-        { src: "/static/home_2.jpg" },
-        { src: "/static/home_3.jpg" },
-        { src: "/static/home_4.jpeg" },
-        { src: "/static/home_5.jpg" }
+        { src: "./static/home_1.jpg" },
+        { src: "./static/home_2.jpg" },
+        { src: "./static/home_3.jpg" },
+        { src: "./static/home_4.jpeg" },
+        { src: "./static/home_5.jpg" }
       ],
       cards: [
         {
