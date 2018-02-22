@@ -14,7 +14,7 @@
     </v-flex>
     <v-flex xs12 text-xs-center mt-4 v-html="content_1.title"></v-flex>
     <v-flex xs12 text-xs-center>
-      <router-link to="/mitraclean/contact">
+      <router-link to="/contact">
         <v-card-media src="./static/call-us.png" height="120" contain></v-card-media>
       </router-link>
     </v-flex>
@@ -37,7 +37,7 @@
       </v-card>
     </v-flex>
     <v-flex xs12 text-xs-center>
-      <router-link to="/mitraclean/contact">
+      <router-link to="/contact">
         <v-card-media src="./static/call-us.png" height="120" contain></v-card-media>
       </router-link>
     </v-flex>

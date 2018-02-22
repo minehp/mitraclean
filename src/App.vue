@@ -27,11 +27,11 @@
           <v-spacer></v-spacer>
           <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
           <v-toolbar-items class="hidden-sm-and-down">
-            <v-btn flat router to="/mitraclean/">
+            <v-btn flat router to="/">
               <v-icon medium color="brown lighten-1">home</v-icon>
             </v-btn>
-            <v-btn flat router to="/mitraclean/about-us">Tentang Kami</v-btn>
-            <v-btn flat router to="/mitraclean/contact">Kontak</v-btn>
+            <v-btn flat router to="/about-us">Tentang Kami</v-btn>
+            <v-btn flat router to="/contact">Kontak</v-btn>
           </v-toolbar-items>
         </v-toolbar>
         <v-content>
