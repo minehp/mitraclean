@@ -41,7 +41,7 @@
       <v-layout primary justify-space-between text-xs-center text-md-left row wrap pb-3>
         <v-flex xs12 md4>
           <div class="footerLogo py-3 px-5">
-            <img :src="require('./assets/logo.png')" alt="Logo">
+            <img :src="require('@/assets/logo.png')" alt="Logo">
             <div class="caption">
               Spesialis Cuci Sofa dan Karpet
             </div>
@@ -72,7 +72,7 @@ export default {
   components: {},
   data: () => {
     return {
-      logo: require('./assets/logo.png'),
+      logo: require('@/assets/logo.png'),
       title: 'Mitra Clean',
       caption: 'Jasa Cuci Sofa dan Karpet area Surabaya, Sidoarjo, dan Gresik',
       items: [
