@@ -118,7 +118,24 @@ export default {
         body:
           "<p><b>Mitra Clean</b> merupakan penyedia layanan jasa cuci sofa dan karpet profesional dan berkualitas dengan dukungan tenaga yang terampil,profesional,ramah,dan sopan dalam memberikan pelayanan <b>Cuci Sofa, Cuci Springbed,Cuci Karpet,dan Cuci Kursi Kantor</b>.<b>Mitra Clean</b> melayani jasa untuk rumah dan perkantoran yang mencakup wilayah Surabaya, Sidoarjo, Gresik, dan sekitarnya.<b>Mitra Clean</b> berpengalaman menangani masalah kotor, bau, debu dan noda membandel pada sofa dan karpet anda. <b>Mitra Clean</b> Menggunakan bahan dan alat-alat berkualitas dan higinenis sehingga tidak merusak Sofa, tidak meninggalkan bau tidak sedap dan juga mampu membunuh kuman-kuman dan bakteri yang menempel pada sofa atau karpet anda. <b>Mitra Clean</b> melayani anda sepenuh hati sehingga anda tidak perlu repot membawa Sofa Anda kekantor kami, team kami akan segera mengunjungi rumah atau kantor anda, dan segera membersihkan sofa atau karpet anda dari kotoran, kuman dan bakteri-bakteri yang biasanya berkembang biak dalam sofa dan karpet yang kotor."
       }
+
     };
+  },
+  head: {
+    title: function () {
+      return {
+        inner: 'MitraClean - Cuci sofa surabaya'
+      }
+    },
+    meta: function () {
+      return [
+        { name: 'keywords', content: 'cuci sofa surabaya, cuci sofa dan karpet, cuci sofa dan karpet surabaya' },
+        { name: 'description', content: 'Jasa cuci sofa, karpet, dan springbed di wilayah surabaya dan sekitarnya' },
+        { name: 'robots', content: 'index, follow' },
+        { name: 'title', content: 'jasa cuci sofa, karpet, dan springbed surabaya' },
+        { name: 'copyright', content: 'mitraclean.com is registered trademark of Yuda Ferry Mahendra <juncyboy@gmail.com>' }
+      ]
+    }
   }
 };
 </script>

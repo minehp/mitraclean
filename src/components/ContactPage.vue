@@ -30,3 +30,23 @@
     background-color: rgba(0,0,0,.6);
   }
 </style>
+
+<script>
+export default {
+  head: {
+    title: function () {
+      return {
+        inner: 'MitraClean - Kontak - Cuci sofa surabaya'
+      }
+    },
+    meta: function () {
+      return [
+        { name: 'keywords', content: 'kontak mitraclean, kontak cuci sofa, kontak cuci sofa surabaya' },
+        { name: 'description', content: 'hubungi mitraclean yang merupakan jasa cuci sofa di surabaya' },
+        { name: 'title', content: 'kontak mitra clean' },
+        { name: 'copyright', content: 'mitraclean.com is registered trademark of Yuda Ferry Mahendra <juncyboy@gmail.com>' }
+      ]
+    }
+  }
+}
+</script>
