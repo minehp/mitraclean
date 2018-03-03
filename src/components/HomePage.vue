@@ -133,7 +133,9 @@ export default {
         { name: 'description', content: 'Jasa cuci sofa, karpet, dan springbed di wilayah surabaya dan sekitarnya' },
         { name: 'robots', content: 'index, follow' },
         { name: 'title', content: 'jasa cuci sofa, karpet, dan springbed surabaya' },
-        { name: 'copyright', content: 'mitraclean.com is registered trademark of Yuda Ferry Mahendra <juncyboy@gmail.com>' }
+        { name: 'copyright', content: 'mitraclean.com is registered trademark bealkha.com' },
+        { name: 'lang', content: 'id' },
+        { name: 'author', content: 'Yuda Ferry Mahendra <juncyboy@gmail.com>' }
       ]
     }
   }

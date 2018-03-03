@@ -102,7 +102,9 @@
           { name: 'keywords', content: 'tentang mitraclean, tentang cuci sofa, tentang cuci sofa surabaya' },
           { name: 'description', content: 'info tentang mitraclean yang merupakan jasa cuci sofa di surabaya' },
           { name: 'title', content: 'tentang mitra clean' },
-          { name: 'copyright', content: 'mitraclean.com is registered trademark of Yuda Ferry Mahendra <juncyboy@gmail.com>' }
+          { name: 'copyright', content: 'mitraclean.com is registered trademark bealkha.com' },
+          { name: 'lang', content: 'id' },
+          { name: 'author', content: 'Yuda Ferry Mahendra <juncyboy@gmail.com>' }
         ]
       }
     }
